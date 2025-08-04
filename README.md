@@ -1,15 +1,17 @@
-## Lesson Summary: Divide and Conquer
+## Divide and Conquer
 
+The **_Divide and Conquer_** paradigm is a powerful strategy for algorithm design that involves breaking a problem into smaller subproblems, solving them recursively, and combining the results.
 
-This lesson provides a comprehensive exploration of the Divide and Conquer paradigm, a powerful strategy for algorithm design that involves breaking a problem into smaller subproblems, solving them recursively, and combining the results. The performance of these recursive algorithms is analyzed using the **_Master Theorem_** , which provides a direct method for solving common recurrence relations. This approach is first demonstrated on the exponentiation problem, where Exponentiation by Squaring reduces complexity from $O(n)$ to $O(\log n)$. The core of the lesson applies this paradigm to fundamental sorting and selection algorithms, contrasting inefficient $O(n^2)$ methods with efficient D&C algorithms like Merge Sort $O(n \log n)$ and Quick Sort average case $O(n \log n)$. The Quickselect algorithm is also presented as an efficient method to find the median or k-th smallest element in linear time, $O(n)$.
+Here are the key algorithms and concepts covered:
 
-* dd
-* gff
-
-
-Building on these fundamentals, the lesson explores advanced applications that require clever insights to optimize the D&C approach. For the Maximum Subarray Sum problem, an initial $O(n \log n)$ solution is refined to $O(n)$ by enhancing the recursive calls to return extra information, enabling a constant-time combine step. For Polynomial Multiplication, Karatsuba's algorithm demonstrates an algebraic trick that reduces the number of subproblems from four to three, improving the complexity from $O(n^2)$ to approximately $O(n^{1.58})$. The geometric problem of finding the Closest Pair of Points is solved in $O(n \log n)$ by pre-sorting the data and intelligently pruning the search space in the combine step. Finally, the lesson connects these academic concepts to the real world with MapReduce, a distributed computing framework that institutionalizes the Divide and Conquer strategy to process big data at a massive scale.
-
-
+* **_Master Theorem_**: Provides a formula to quickly determine the time complexity of recursive, divide-and-conquer algorithms.
+* **_Exponentiation by Squaring_**: An efficient algorithm that computes large integer powers in logarithmic time.
+* **_Merge Sort_**: A stable sorting algorithm that sorts an array by recursively splitting it in half and merging the sorted subarrays.
+* **_Quick Sort_**: An efficient, in-place sorting algorithm that partitions an array around a pivot element and sorts the partitions recursively.
+* **_Quickselect_**: A selection algorithm that finds the k-th smallest element in a collection in expected linear time.
+* **_Maximum Subarray Sum_**: An optimized divide-and-conquer approach to find the contiguous subarray with the largest sum in linear time.
+* **_Karatsuba's Algorithm_**: A fast multiplication algorithm that improves upon the classic method by reducing the number of recursive multiplications.
+* **_Closest Pair of Points_**: A geometric algorithm that efficiently finds the two points with the minimum distance between them in a plane.
 
 
 
