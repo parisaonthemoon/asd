@@ -14,4 +14,16 @@ Here are the key algorithms and concepts covered:
 * **_Closest Pair of Points_**: A geometric algorithm that efficiently finds the two points with the minimum distance between them in a plane.
 
 
+## Dynamic Programming
 
+**_Dynamic Programming_** is an optimization technique that solves complex problems by breaking them down into simpler overlapping subproblems and storing their solutions to avoid redundant computations.
+
+Here are the key algorithms and concepts covered:
+
+* **_Fibonacci Numbers_**: Introduces DP by showing how storing results (**_memoization_**) transforms an exponential recursive solution into a linear one.
+* **_Assembly-Line Scheduling_**: Finds the fastest path through a multi-line factory by building a solution from optimal choices at each station.
+* **_Longest Common Subsequence (LCS)_**: A classic problem that finds the longest subsequence shared between two strings using a 2D table to track optimal substructures.
+* **_0-1 Knapsack Problem_**: Determines the most valuable combination of items to include in a bag of limited weight capacity, solved with a pseudo-polynomial time DP approach.
+* **_Matrix-Chain Multiplication_**: Finds the most efficient order to multiply a chain of matrices by determining the optimal parenthesization.
+* **_Corporate Party Planning_**: A DP-on-trees problem that selects nodes to maximize a value subject to parent-child constraints.
+* **_Edit Distance (Levenshtein)_**: Calculates the minimum number of edits (insert, delete, substitute) needed to change one string into another, widely used in NLP.
