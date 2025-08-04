@@ -27,3 +27,17 @@ Here are the key algorithms and concepts covered:
 * **_Matrix-Chain Multiplication_**: Finds the most efficient order to multiply a chain of matrices by determining the optimal parenthesization.
 * **_Corporate Party Planning_**: A DP-on-trees problem that selects nodes to maximize a value subject to parent-child constraints.
 * **_Edit Distance (Levenshtein)_**: Calculates the minimum number of edits (insert, delete, substitute) needed to change one string into another, widely used in NLP.
+
+
+
+## Greedy Algorithms
+
+The **_Greedy Algorithm_** paradigm is an approach for solving optimization problems by making a sequence of locally optimal choices at each stage with the hope of finding a global optimum.
+
+Here are the key algorithms and concepts covered:
+
+* [cite_start]**_Fractional Knapsack Problem_**: An optimization problem solved by greedily selecting items with the highest value-to-weight ratio to maximize total value. [cite: 1247, 1248, 1249, 1250]
+* [cite_start]**_Activity-Selection Problem_**: A scheduling problem solved by greedily choosing the activity with the earliest finish time to maximize the number of compatible activities. [cite: 1318, 1319, 1331]
+* [cite_start]**_Huffman Codes_**: A classic data compression algorithm that uses a greedy strategy to build an optimal prefix-free binary code tree for characters based on their frequency. [cite: 1424, 1425, 1426, 1427, 1428, 1429, 1430, 1445]
+* [cite_start]**_Coin Change Problem_**: A classic example used to demonstrate that while a greedy approach can be optimal for certain coin systems, it can fail for others. [cite: 1621, 1622]
+* [cite_start]**_Proof of Optimality_**: Greedy algorithms require a formal proof, often by contradiction, to show that the local choices lead to a global optimum. [cite: 1295, 1296, 1297, 1298, 1299, 1300]
