@@ -46,3 +46,17 @@ Here are the key algorithms and concepts covered:
 * 
 * **_Proof of Optimality_**: Greedy algorithms require a formal proof, often by contradiction, to show that the local choices lead to a global optimum.
 
+
+
+## Graph Algorithms
+
+This lesson explores fundamental graph algorithms for solving two major optimization problems: finding the **_Minimum Spanning Tree_** to connect all vertices with minimum cost, and finding the **_Shortest Path_** between vertices.
+
+Here are the key algorithms and concepts covered:
+
+* **_Kruskal's Algorithm_**: A greedy approach that builds a Minimum Spanning Tree (MST) by iteratively adding the lowest-weight edge that doesn't form a cycle.
+* **_Prim's Algorithm_**: A greedy approach that builds an MST by growing a single tree, always adding the cheapest edge that connects the tree to a new vertex.
+* **_Union-Find Data Structure_**: An auxiliary data structure used with Kruskal's algorithm to efficiently track connected components and detect cycles.
+* **_Dijkstra's Algorithm_**: A classic algorithm for finding the single-source shortest paths in a weighted graph, provided all edge weights are non-negative.
+* **_Bellman-Ford Algorithm_**: A single-source shortest path algorithm that uses dynamic programming to handle graphs with negative edge weights and can detect negative cycles.
+* **_Floyd-Warshall Algorithm_**: A dynamic programming algorithm that efficiently solves the all-pairs shortest path problem, also capable of handling negative weights.
