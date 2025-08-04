@@ -1,4 +1,4 @@
-Of course. Here are the summaries for all six lectures in the requested `README.md` format.
+ # Of course 
 
 ***
 
