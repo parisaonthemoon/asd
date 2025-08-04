@@ -1,6 +1,6 @@
  # Of course 
 
-***
+performance of these recursive algorithms is typically determined using the **_Master Theorem_**.
 
 ## Divide and Conquer
 
